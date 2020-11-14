@@ -1,0 +1,47 @@
+keyring
+Manage ssh-agent, make sure ssh agent persist through login/logout
+
+ssh-agent
+Process that store private-key after decryption
+ssh-agent to make sure to use one ssh-agent for one unique host connection
+
+Password (Prove client identity)
+- Login website
+- WPA
+
+Challenge-Response authentication (Prove client identity)
+- Let's encrypt
+- ssh-agent
+
+Signature public-key cryptography (Prove server identity)
+- Certificate
+
+Diffie-Hellman (Secure communication)
+- HTTPS
+
+getent - get entries from databases (files in /etc, passwd, shadow)
+
+Code have Entry Point defined by the a fixed address or defined in ELF file
+
+`/var/spool` contains data for processing
+
+analog-output-speaker - Speaker
+analog-output-headphones - Headphone
+analog-input-internal-mic - Laptop build-in microphone
+analog-input-mic - Microphone microphone
+
+
+== Udev ==
+Udev rules define how to the sysfs will be loaded.
+sysfs provide an interface to the user to modify hardware properties
+
+== wpa_cli ==
+
+scan
+scan_results
+add_network
+set_network 0 ssid "256-Philip-Lounge"
+set_network 0 psk "password"
+set_network 0 key_mgmt NONE
+enable_network 9
+save_config

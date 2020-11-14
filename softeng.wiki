@@ -1,0 +1,11 @@
+Behavior Driven Development
+- Test Public API
+- Test the expected behaviour we want to provide for the user
+- Keep Public API thin
+- Do not test implementation details
+
+The structure of BDD is Given-When-Then
+
+Web Server
+- Nginx, URL -> FS, URL -> Port
+- Node.js, URL -> Logic

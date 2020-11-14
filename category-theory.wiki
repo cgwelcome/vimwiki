@@ -1,0 +1,96 @@
+Category
+- Objects
+- Morphisms
+
+== Object ==
+
+Relationship between objects: Morphism
+
+Properties of Object
+- Initial Object
+- Terminal Object
+
+Properties of Morphism
+- Endomorphism
+- Epimorphism
+- Isomorphism
+
+Construction of Category Objects
+- Product of X_1 and X_2
+- Coproduct of X_1 and X_2
+- Exponential object of Y and Z
+
+== Category ==
+
+Relationship between categories: Functor
+Relationship between Objects and Morphism: Functor
+
+Properties of a Category
+- Monoidal
+
+Properties of a Functor
+- Endofunctor
+- Bifunctor
+
+Relationship between Functor F: C -> D and G: C -> D: Natural transformation
+Relationship between F(D) and G(D): Natural transformation
+
+Contruction of Category
+- Product of Categories C and D
+- Free category
+
+== Natural Transformation ==
+Set of morphism of Functor F: C -> D and G: C -> D
+
+Properties of a natural transformation
+- Natural isomorphism
+
+== Monoidal Category ==
+- A bifunctor (tensor product) C x C -> C
+- Object I the unit object in C
+- Three natural isomorphism from F to G functors (constructed using tensor product) which are
+  1. Associator: where F is defined as C x (C x C) -> C x C - > C, and G: (C x C) x C -> C x C -> C
+  2. Left unitor (lambda): F is defined as C x C x C -> {I} x C -> C, and G: C -> C (unit)
+  3. Right unitor (rho): F is defined as C x C x C -> C x {I} -> C and G: C -> C (unit)
+
+== Example of Monoidal Category ==
+- Category of small sets
+  * Bifunctor: A x B -> A x B
+- Category of endofunctor
+  * Bifunctor: A x B -> A \circ B (composition)
+
+== Monoid ==
+
+A monoid is a object M in monoidal category with two morphism
+1. mu: M x M -> M
+2. eta: I -> M
+respect additional properties
+
+== Example of Monoid ==
+
+- Category of endofunctor over C
+  * Monoid: List
+  * mu: List \circ List -> List (mu is a natural transformation)
+  * eta: id -> List (natural transformation as well)
+  * A monoid in the category of endofunctor is called monad
+
+== Monad ==
+
+Monad gives rise to Kleisli category over C
+* Object: obj(C)
+* Morphism: Hom(X, Y) = Hom_C(X, FY)
+
+Relationship between all functions f: X -> FY : Kleisli triple
+Relationship between F(X) and f: X -> FY : Kleisli category
+
+== Example of Categories ==
+
+- Category of endofunctor of C
+  * Object: Endofunctor
+  * Morphism: Natural transformation
+- Category of small categories
+  * Object: Small category
+  * Morphism: Functor
+- Category of functor category from C to D
+  * Object: Functor
+  * Morphism: Natural transformation

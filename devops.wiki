@@ -1,0 +1,64 @@
+== Testing ==
+UI testing
+- cypress.io
+- selenium
+
+== Virtualization ==
+
+docker
+- Virtualization for server environment
+- Unify to a single test environment
+
+docker image
+- snapshot of an built application
+
+== Git ==
+git flow - Awesome branching model
+git init --bare  - used to initialize remote repository
+
+
+== Continuous Integration/Continuous Deployment ==
+
+Tools for CI/CD
+- gitlab CI
+
+CI runner server
+- Must on different server than production or version control server
+- Any script can be run without causing security issue
+
+== Hosting ==
+
+shared hosting
+- WordPress
+
+cloud hosting
+- AWS
+
+VPS
+- Digital Ocean
+
+Domain Registrar
+- Responsible registrating domain name
+- Forward DNS request
+
+Example
+- NameCheap
+- Google Domains
+- AWS
+- GoDaddy
+
+
+DNS hosting service
+- Add DNS entries
+Most domain registrar is a DNS hosting service
+
+== Hosting Configuration ==
+
+Kubernetes
+- Zero downtime with rolling release
+
+Ansible
+- Procedural setup for linux configuration
+
+Ngrok
+- Reverse tunnelling

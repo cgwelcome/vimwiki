@@ -1,0 +1,15 @@
+Hardware reverse engineering
+- usb to ttl serial
+
+RFID
+Use radio signal to identify object
+Options:
+- Low frequency, 125, 134.3 kHz
+- High frequency, 13.56 MHz
+
+RC522 module to read RFID
+
+
+NFC
+- active
+- passive

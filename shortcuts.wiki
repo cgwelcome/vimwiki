@@ -1,0 +1,82 @@
+== NVim ==
+CTRL-o : pop back
+CTRL-Enter : autocomplete
+CTRL-j : next-complete (snippet)
+CTRL-k : prev-complete (snippet)
+
+CTRL-n : next-autocomplete
+CTRL-p : prev-autocomplete
+
+:vsplit - split window vertically
+:split - split window horizontally
+:tabmove 0 - move tab to position 0
+:tabnew | term - open terminal on a new tab
+:split | term - open terminal on split
+
+gll - increase indent (level)
+Enter, glh - decrase indent (hop)
+gl*, gl-, gl1, gl# - change bullet character
+<leader> wr - rename wiki page
+<leader> wd - delete wiki page
+= - Add format
+
+== Tmux ==
+Zsh
+ta - tmux attach -t
+tl - tmux list-sessions
+
+tmux kill-session -t [...] - delete session
+CTRL-a d - detach session
+CTRL-a $ - rename session
+
+== Ranger ==
+- delete, remove file
+- cw, rename
+- S, open terminal
+- pT, paste symbolic link
+- yy, yank
+- dd + p, cut paste
+- r, see the list of program can be launch
+- 1l, launch with with application 1
+
+== Zsh ==
+
+- CTRL-L, clear
+- CTRL-D, put EOF
+
+- ALT-F, forward word
+- ALT-B, back word
+
+- ALT-D, delete word after cursor
+- CTRL-W, delete word before cursor
+
+- CTRL-U, clear line
+- CTRL-A, move beginning
+- ALT-C, change directory FZF
+- CTRL-R, search history
+
+== Bash ==
+cp -a src/. dst - copy all files in src to dst
+stty - get tty settings
+ANSI escape code to change option
+
+
+== Git ==
+git reset HEAD, unstage everything
+git reset HEAD -- . , unstage the file
+
+Git clone is a shortcuts for the following commands
+- git init
+- git remote
+- git fetch
+- git merge
+
+Git subtree
+- easier to pull than push
+[repository] [branch]
+
+Git submodule
+- easier to push than pull
+
+== Docker ==
+docker-compose up --build, rebuild image

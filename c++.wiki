@@ -1,0 +1,8 @@
+- Rule of Five
+- Copy Elision
+- Default constructors
+- Default arguments
+- Forward reference
+- Overload resolution
+  - List-initialization
+- virtual function specifier

@@ -1,0 +1,8 @@
+[[shortcuts]]
+[[linux]]
+[[devops]]
+[[algorithm]]
+[[hardware]]
+[[softeng]]
+[[c++]]
+[[category-theory]]
