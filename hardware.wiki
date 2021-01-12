@@ -1,15 +1,38 @@
-Hardware reverse engineering
-- usb to ttl serial
-
-RFID
-Use radio signal to identify object
+== RFID (Radio Frequency identification) ==
+Technology which uses radio signal to identify object.
 Options:
-- Low frequency, 125, 134.3 kHz
+- Low frequency, 125 - 134.3 kHz
 - High frequency, 13.56 MHz
 
-RC522 module to read RFID
+Hardware:
+- RC522 RFID Module (Reader, Arduino, High frequency)
+- ICLASS SE™ R40 Reader (Reader, Low and High frequency)
+- HID Corporation 1346 ProxKey III Key Fob (Low frequency)
+- HID 1326LSSMV HID 1326 PROX CARD II (Low frequency)
 
+== NFC (Near-field communication) ==
+NFC is a specialized protocol within the family of RFID technology
+It is used for contactless exchange data between devices
 
-NFC
-- active
-- passive
+Example:
+- Mobile payment
+- Credit card
+- Transit card
+
+== UART ==
+
+serial - a communication method sending one bit at the time
+UART - a chip with TX and RX line for serial communication
+TTL - a type of logic gate that make up UART
+RS-232 - one of the protocols using UART
+
+Example:
+- USB to TTL Adapter
+
+== BIOS ==
+The program to intializes a computer.
+It is stored in a EEPROM chip on the motherboard.
+One of common type of BIOS chip is SOIC8 (Small outline integrated circuit with 8 pins)
+
+Example:
+- SOIC8 Test Clip with a USB Programmer flash

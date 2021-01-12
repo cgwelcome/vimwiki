@@ -6,3 +6,12 @@
 - Overload resolution
   - List-initialization
 - virtual function specifier
+
+
+== Functional ==
+Create object using template, and use operator ()
+std::plus() is the object;
+std::plus()() invoke the operator ()
+- Enable function to be polymorphism
+Template function
+- No polymorphism

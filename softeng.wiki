@@ -9,3 +9,7 @@ The structure of BDD is Given-When-Then
 Web Server
 - Nginx, URL -> FS, URL -> Port
 - Node.js, URL -> Logic
+
+Database vs. File System
+Arguably same performance;
+however, database technology reduces the number of I/O calls,

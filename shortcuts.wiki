@@ -12,7 +12,9 @@ CTRL-p : prev-autocomplete
 :tabmove 0 - move tab to position 0
 :tabnew | term - open terminal on a new tab
 :split | term - open terminal on split
+:Rename - rename current file
 
+=== vim-wiki ===
 gll - increase indent (level)
 Enter, glh - decrase indent (hop)
 gl*, gl-, gl1, gl# - change bullet character
@@ -38,6 +40,9 @@ CTRL-a $ - rename session
 - dd + p, cut paste
 - r, see the list of program can be launch
 - 1l, launch with with application 1
+
+== Zathura ==
+- Tab, index mode
 
 == Zsh ==
 
