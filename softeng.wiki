@@ -10,6 +10,56 @@ Web Server
 - Nginx, URL -> FS, URL -> Port
 - Node.js, URL -> Logic
 
-Database vs. File System
+SQL vs. NoSQL (Database vs File System)
 Arguably same performance;
 however, database technology reduces the number of I/O calls,
+
+
+Singleton object
+- cout/cin
+- logging
+- responses for requests mock Python library
+
+Unit test
+- Responsible at testing one component, how we define a component depends on the company
+
+
+Percent Encoding/URL encoding - use to encode URL
+- email link: uses percent encoding
+- application/x-www-form-urlencoded: uses percent encoding with exception that space is replace from %20
+Encoded string is also called quoted string
+
+Scrapy has no join mechanism -> resort to linear processing
+
+Iterable vs. Iterator
+Iterable is a function that produces an iterator.
+An iterator has the fucntion next implemented
+
+Parsing
+- Recursive-decent parser
+- LL parser
+- LALR parser
+Lark is parsing library for Python. %ignore does not apply to terminal
+
+== Python ==
+f-string, r-string...
+Read upon pydantic library
+
+
+Unicodedata
+Certain unicode look exactly the same, but have different unicode character.
+Hence we normalize them in Python, so they have a canonical representation
+NFC - normalize form c (canonical composition), i.e. combine e and /
+NFD - normalize form d (canonical decomposition), i.e  separate e and /
+NFKC - normalize form kc, decompose, and compose
+NFKD - normalize form kd, compose, and decompose
+
+Analysis Paralysis?
+
+== Data Engineer Technologies ==
+- Kafka, RabbitMq - stream processing, Producer/Consumer
+- AWS Athena/AWS RedShift connect S3 to database for query, handy for analytic
+- Apache Spark - Large scale data processing
+- Cassandra, Mongodb, Couchdb... - NoSQL technologies
+- Apache Airflow - Data job synchronization
+

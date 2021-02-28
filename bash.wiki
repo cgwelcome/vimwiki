@@ -1,0 +1,38 @@
+== Awk ==
+
+For each line, Pattern { Action }
+NF - Number of Fields
+NR - Number of Records (Line number)
+$n - Get Record Field n
+FS - Field seperator
+-v - Add define variable
+
+
+== Bash ==
+
+Example of for loop
+```bash
+for x in {1..2}; do echo $x; done
+```
+
+IFS - internal field seperator to define how words are split
+$(()) - Arithmetic Expansion
+{5..8}, {10..8} - Sequence Expression
+$() - Process Substitution
+${} - Parameter Substitution
+$n - Position Parameter
+$* - Parameter Expansion of position parameters in one word
+$@ - Parameter Expansion of position parameters in multiple word
+${array[*]} - Parameter Expansion of array in one word
+${array[@]} - Parameter Expansion of array in multiple word
+
+[ - alias command for test, it expect ']' as the last parameter
+
+Difference between
+1 - $foo
+2 - "$foo"
+1 does word splitting + globbing, 2 does not
+
+ZSH vs Bash
+1. zsh does not do word splitting
+2. Parameter substitution in bash is recursive, not in sh/bash

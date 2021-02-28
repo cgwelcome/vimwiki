@@ -1,5 +1,4 @@
 Choice of a_i
-C++ - `int i = 1e + 7` is valid
 
 == Neccessity and sufficiency ==
 p => q
@@ -9,4 +8,7 @@ q is necessity for p
 Canonical coin system - coin system where greedy solution give optimal solution
 c_i | c_{i-1} then it is cononical
 
-Fin
+== Machine Learning ==
+Sensitivity/True positive rate
+Specificity/Ture negative rate
+Precision

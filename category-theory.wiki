@@ -46,6 +46,7 @@ Properties of a natural transformation
 - Natural isomorphism
 
 == Monoidal Category ==
+With a category C, we can construct a monoidal category
 - A bifunctor (tensor product) C x C -> C
 - Object I the unit object in C
 - Three natural isomorphism from F to G functors (constructed using tensor product) which are
@@ -64,7 +65,7 @@ Properties of a natural transformation
 A monoid is a object M in monoidal category with two morphism
 1. mu: M x M -> M
 2. eta: I -> M
-respect additional properties
++ additional properties
 
 == Example of Monoid ==
 

@@ -1,0 +1,5 @@
+== GPG ==
+Use pinentry-mac in gpg-config, and add key to keychain
+
+== SSH ==
+After creating SSH key-pair, add to MAC keychain

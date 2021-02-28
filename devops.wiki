@@ -62,3 +62,11 @@ Ansible
 
 Ngrok
 - Reverse tunnelling
+
+== API monitor ==
+- Prometheus for metrics and alerting based on metrics
+- Grafana to display metrics
+- Elasticsearch/Logstash/Kibana for logs and structured events
+- Pushover for mobile notifications
+
+If a scraper crash, then Prometheus will notice us

@@ -7,6 +7,7 @@
   - List-initialization
 - virtual function specifier
 
+`int i = 1e + 7` is valid
 
 == Functional ==
 Create object using template, and use operator ()

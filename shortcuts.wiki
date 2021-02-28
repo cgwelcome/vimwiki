@@ -1,14 +1,15 @@
 == NVim ==
 CTRL-o : pop back
 CTRL-Enter : autocomplete
-CTRL-j : next-complete (snippet)
-CTRL-k : prev-complete (snippet)
 
 CTRL-n : next-autocomplete
 CTRL-p : prev-autocomplete
 
-:vsplit - split window vertically
-:split - split window horizontally
+CTRL-w CTRL-w : toggle focus (w)indow
+CTRL-w CTRL-r : (r)eorder split window, swap window
+
+:vsplit - (v)ertically split
+:split - horizontally split window
 :tabmove 0 - move tab to position 0
 :tabnew | term - open terminal on a new tab
 :split | term - open terminal on split
@@ -16,11 +17,41 @@ CTRL-p : prev-autocomplete
 
 === vim-wiki ===
 gll - increase indent (level)
-Enter, glh - decrase indent (hop)
+Enter, glh - decrease indent (hop)
 gl*, gl-, gl1, gl# - change bullet character
-<leader> wr - rename wiki page
-<leader> wd - delete wiki page
+<leader> wr - (w)iki (r)ename page
+<leader> wd - (w)iki (d)elete page
 = - Add format
+
+== fzf-vim ==
+CTRL-t - open in a new (t)ab
+CTRL-v - open in new (v)ertical split
+CTRL-x - open in new split (x) cut in half like a pair of scissor
+
+== Evolution of vim ==
+
+== Editor ==
+- ed/ex (line editor) , (line editor extended)
+1973 on Unix Operating system
+Very terse, designed to be used for TTY
+
+- vi (visual interface)
+editor designed for computer terminal, as it becomes more popular
+1976 editor design by Bill Joy
+
+- vim (vi modified)
+clone of vi in 1991 design with more functionality
+
+- neovim
+refactor of vim codebase in 2014
+
+== Evolution of tools ==
+grep (1974): g/re/p, which is a ed command
+sed (1974): (s)tream (ed)itor, editor supporting regex, syntax inspired by ed and qed two editor
+awk (1977): prefix of authors (Alfred Aho, Peter J. Weinberger, Brian Kernighan) DSL for pattern match and extraction
+
+GNU (1983): GNU's Not Unix, project to develop sets of tools that are open-source, gcc, emacs, ...
+Linux kernel (1991):
 
 == Tmux ==
 Zsh
@@ -38,8 +69,8 @@ CTRL-a $ - rename session
 - pT, paste symbolic link
 - yy, yank
 - dd + p, cut paste
-- r, see the list of program can be launch
-- 1l, launch with with application 1
+- r, see the list of prog(r)am can be launch
+- 1l, application (1) (l)aunch
 
 == Zathura ==
 - Tab, index mode
